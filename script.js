@@ -7,7 +7,7 @@ const startButton = document.querySelector('.start-button');
 const resetButton = document.querySelector('.reset-button');
 const stopButton = document.querySelector('.stop-button');
 const pauseButton = document.querySelector('.pause-button');
-const alarmSound = new Audio('../assets/oversimplified-alarm-clock.mp3');
+const alarmSound = new Audio('oversimplified-alarm-clock.mp3');
 
 let timeLeft; 
 let timerId; 
