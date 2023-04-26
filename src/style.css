@@ -19,13 +19,12 @@
   padding: 0;
 }
 body {
-  /* border: 4px solid pink; debug */
   min-width: 100vw;
   min-height: 100vh;
   font-size: 1em;
   display: flex;
-  align-items: center; /* center child element vertically */
-  justify-content: center; /* center child element horizontally */
+  align-items: center; 
+  justify-content: center; 
   background-color: var(--bg);
 }
 p, a, button{
